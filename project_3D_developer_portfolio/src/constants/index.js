@@ -28,11 +28,11 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "A propos de moi",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Mes travaux",
   },
   {
     id: "contact",
@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Développeur embarqué",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Développeur React Native",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Développeur Backend",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Créateur de contenu",
     icon: creator,
   },
 ];
@@ -116,8 +116,8 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "Développeur C embarqué",
+    company_name: "Gamma",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2020 - April 2021",
