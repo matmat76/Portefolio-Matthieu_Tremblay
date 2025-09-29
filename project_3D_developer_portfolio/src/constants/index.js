@@ -159,6 +159,18 @@ const experiences = [
     ],
   },
   {
+    title: "Brevetage d'un Moteur Électrique",
+    company_name: "Intervenant Junior Entreprise - ESEO, Angers",
+    icon: seio,
+    iconBg: "#383E56",
+    date: "Septembre 2023 - Present",
+    points: [
+      "Étude comparative de plusieurs moteurs à circuit secondaire magnétique combinant modélisation théorique et validation expérimentale.",
+      "Analyse des performances (rendement, flux magnétique) entre différentes architectures (tambour, disques)",
+      "Rédaction d'un document technique complet en LaTeX pour le dépôt de brevet.",
+    ],
+  },
+  {
     title: "Filtrage Analogique d'un Jeu en RA",
     company_name: "Chercheur - UEC, Tokyo, Japon",
     icon: uec,
@@ -181,18 +193,6 @@ const experiences = [
       "Conception et développement d'une voiture télécommandée équipée d'une tourelle caméra motorisée 2D pilotée par RF (ESP32-CAM, Arduino).",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Intégration d'un streaming vidéo local via ESP32-CAM avec analyse des limitations de bande passante et portée RF.",
-    ],
-  },
-  {
-    title: "Brevetage d'un Moteur Électrique",
-    company_name: "Intervenant Junior Entreprise - ESEO, Angers",
-    icon: seio,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Étude comparative de plusieurs moteurs à circuit secondaire magnétique combinant modélisation théorique et validation expérimentale.",
-      "Analyse des performances (rendement, flux magnétique) entre différentes architectures (tambour, disques)",
-      "Rédaction d'un document technique complet en LaTeX pour le dépôt de brevet.",
     ],
   },
   {
