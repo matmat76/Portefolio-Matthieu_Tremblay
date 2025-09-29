@@ -6,6 +6,13 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import uec from "./company/uec.png";
+import voiture from "./company/voiture.webp";
+import cpge from "./company/cpge.webp";
+import parking from "./company/parking.webp";
+import seio from "./company/seio.png";
+import fortil from "./company/fortil.webp";
+import hitachi from "./company/hitachi.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -32,7 +39,14 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  parking,
+  seio,
+  cpge,
+  voiture,
+  uec,
   backend,
+  fortil,
+  hitachi,
   creator,
   mobile,
   web,
