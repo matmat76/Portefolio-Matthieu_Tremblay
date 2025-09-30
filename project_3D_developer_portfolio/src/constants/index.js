@@ -127,7 +127,7 @@ const experiences = [
     company_name: "Développeur Python - Hitachi, Hong Kong",
     icon: hitachi,
     iconBg: "#E6DEDD",
-    date: "Juillet 2025 - Present",
+    date: "Septembre 2025 - Present",
     points: [
       "Développement d'un système complet de détection de fraudes utilisant des réseaux neuronaux graphiques (GNN).",
       "Transformation de données tabulaires, entraînement de modèles non supervisés et optimisation des performances.",
