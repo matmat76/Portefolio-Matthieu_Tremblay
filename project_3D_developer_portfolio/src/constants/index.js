@@ -3,18 +3,22 @@ import {
   backend,
   creator,
   web,
+  c,
   javascript,
   typescript,
   html,
   css,
   reactjs,
   redux,
+  robotframework,
+  python,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
   docker,
+  java,
   fortil,
   seio,
   uec,
@@ -26,8 +30,11 @@ import {
   takuyaNojima,
   tripguide,
   threejs,
+  cmake,
   hitachi,
   logo,
+  cc,
+  ltspice,
 } from "../assets";
 
 export const navLinks = [
@@ -70,40 +77,37 @@ const technologies = [
     icon: html,
   },
   {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
+    name: "React",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "C",
+    icon: c,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    name: "C++",
+    icon: cc,
+  },
+
+  {
+    name: "LTSpice",
+    icon: ltspice,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "Java",
+    icon: java,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "Python",
+    icon: python,
   },
   {
-    name: "Three JS", 
-    icon: threejs,
+    name: "CMake",
+    icon: cmake,
+  },
+  {
+    name: "RobotFramework",
+    icon: robotframework,
   },
   {
     name: "git",
@@ -112,10 +116,6 @@ const technologies = [
   {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
