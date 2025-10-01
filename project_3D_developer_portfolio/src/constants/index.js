@@ -17,15 +17,13 @@ import {
   docker,
   fortil,
   seio,
-  starbucks,
   uec,
   cpge,
   voiture,
   parking,
-  tesla,
-  shopify,
   carrent,
   jobit,
+  takuyaNojima,
   tripguide,
   threejs,
   hitachi,
@@ -104,7 +102,7 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
+    name: "Three JS", 
     icon: threejs,
   },
   {
@@ -127,7 +125,7 @@ const experiences = [
     company_name: "Développeur Python - Hitachi, Hong Kong",
     icon: hitachi,
     iconBg: "#E6DEDD",
-    date: "Septembre 2025 - Present",
+    date: "Juillet 2025 - Present",
     points: [
       "Développement d'un système complet de détection de fraudes utilisant des réseaux neuronaux graphiques (GNN).",
       "Transformation de données tabulaires, entraînement de modèles non supervisés et optimisation des performances.",
@@ -223,27 +221,11 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "His research and development methods have provided a solid foundation for further advancement of this technology in our laboratory. His work has offered us valuable insights for future improvements.",
+    name: "Takuya Nojima",
+    designation: "Enseignant-chercheur à l'University of Electro-Communication à Chofu, Tokyo",
+    company: "UEC",
+    image : takuyaNojima,
   },
 ];
 

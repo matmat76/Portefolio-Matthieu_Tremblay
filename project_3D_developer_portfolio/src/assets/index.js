@@ -13,6 +13,7 @@ import parking from "./company/parking.webp";
 import seio from "./company/seio.png";
 import fortil from "./company/fortil.webp";
 import hitachi from "./company/hitachi.png";
+import takuyaNojima from "./ppl/takuyaNojima.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -53,6 +54,7 @@ export {
   github,
   menu,
   close,
+  takuyaNojima,
   css,
   docker,
   figma,
