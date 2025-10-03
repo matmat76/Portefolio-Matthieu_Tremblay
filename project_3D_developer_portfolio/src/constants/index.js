@@ -26,7 +26,8 @@ import {
   voiture,
   parking,
   carrent,
-  jobit,
+  etudeMoteur,
+  espcam,
   takuyaNojima,
   tripguide,
   threejs,
@@ -58,7 +59,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Développeur Tests d'intégration",
+    title: "Développeur tests",
     icon: mobile,
   },
   {
@@ -231,68 +232,48 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Etude du moteur à circuit secondaire magnétique",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Etude du moteur à circuit secondaire magnétique combinant modélisation théorique et validation expérimentale.",
     tags: [
       {
-        name: "react",
+        name: "Circuit résonant",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Latex",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Electronique",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: etudeMoteur,
+    source_code_link: "https://github.com/matmat76/Etude_Moteur.git",
   },
   {
-    name: "Job IT",
+    name: "Véhicule télécommandé avec tourelle caméra",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Projet embarqué fait en Arduino (C++) avec un ami consistant à créer une voiture télécommandée équipée d'une tourelle caméra motorisée 2D pilotée par RF (ESP32-CAM, Arduino). Le projet a été repris en 2025 pour réaliser une voiture autonome électrique.",
     tags: [
       {
-        name: "react",
+        name: "C++",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Arduino",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Inventor : modélisation 3D",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: espcam,
+    source_code_link: "https://github.com/matmat76/ProTerra.git",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

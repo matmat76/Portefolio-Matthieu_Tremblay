@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import logomatthieu from "./logomatthieu.png";
 
 import uec from "./company/uec.png";
 import voiture from "./company/voiture.webp";
@@ -38,18 +38,19 @@ import java from "./tech/java.png";
 import python from "./tech/python.png";
 import cmake from "./tech/cmake.png";
 import robotframework from "./tech/robotframework.png";
-
+import etudeMoteur from "./moteur-Etude.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import espcam from "./espcam.png";
 import tripguide from "./tripguide.png";
 
 export {
   logo,
   cmake,
+  etudeMoteur,
   robotframework,
   parking,
   seio,
@@ -61,6 +62,7 @@ export {
   uec,
   backend,
   fortil,
+  logomatthieu,
   hitachi,
   c,
   cc,
@@ -89,6 +91,6 @@ export {
   starbucks,
   tesla,
   carrent,
-  jobit,
+  espcam,
   tripguide,
 };

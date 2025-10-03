@@ -51,7 +51,7 @@ const Retour = () => {
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubText}>Ce que les autres disent</p>
-          <h2 className={styles.sectionHeadText}>Témoignages.</h2>
+          <h2 className={styles.sectionHeadText}>Témoignages</h2>
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>

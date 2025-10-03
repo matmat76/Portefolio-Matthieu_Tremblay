@@ -72,7 +72,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>Mes travaux</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projets.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Projets</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -80,7 +80,7 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Voici quelques projets sur lesquels j'ai travaillé. A l'avenir, vous pourrez cliquer sur les images pour accéder aux dépôts GitHub et aux démonstrations en ligne.
+          Voici quelques projets sur lesquels j'ai eu l'occasion de travailler et d'apprendre. Chacun m'a permis de développer de nouvelles compétences. 
         </motion.p>
       </div>
 
