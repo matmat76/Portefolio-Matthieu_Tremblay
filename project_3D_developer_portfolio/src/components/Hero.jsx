@@ -2,8 +2,11 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import { useTranslation } from "../contexts/LanguageContext";
 
 const Hero = () => {
+  const { t } = useTranslation();
+  
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       <div
@@ -16,11 +19,11 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Bonjour, je m'appelle <span className='text-[#915EFF]'>Matthieu</span>
+            {t.hero.greeting} <span className='text-[#915EFF]'>Matthieu</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Je suis un développeur embarqué qui relève des <br className='sm:block hidden' />
-            défis techniques avec rigueur et curiosité
+            {t.hero.description.line1} <br className='sm:block hidden' />
+            {t.hero.description.line2}
           </p>
         </div>
       </div>

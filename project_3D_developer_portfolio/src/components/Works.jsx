@@ -7,6 +7,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { useTranslation } from "../contexts/LanguageContext";
 
 const ProjectCard = ({
   index,
@@ -68,11 +69,37 @@ const ProjectCard = ({
 };
 
 const Works = () => {
+  const { t } = useTranslation();
+  
+  // Projets traduits
+  const translatedProjects = [
+    {
+      name: t.projects.motor.name,
+      description: t.projects.motor.description,
+      tags: t.projects.motor.tags.map((tag, index) => ({
+        name: tag,
+        color: projects[0].tags[index].color
+      })),
+      image: projects[0].image,
+      source_code_link: projects[0].source_code_link,
+    },
+    {
+      name: t.projects.car.name,
+      description: t.projects.car.description,
+      tags: t.projects.car.tags.map((tag, index) => ({
+        name: tag,
+        color: projects[1].tags[index].color
+      })),
+      image: projects[1].image,
+      source_code_link: projects[1].source_code_link,
+    },
+  ];
+
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Mes travaux</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projets</h2>
+        <p className={`${styles.sectionSubText} `}>{t.works.subtitle}</p>
+        <h2 className={`${styles.sectionHeadText}`}>{t.works.title}</h2>
       </motion.div>
 
       <div className='w-full flex'>
@@ -80,17 +107,15 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          Voici quelques projets sur lesquels j'ai eu l'occasion de travailler et d'apprendre. Chacun m'a permis de développer de nouvelles compétences. 
+          {t.works.description}
         </motion.p>
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
-        {projects.map((project, index) => (
+        {translatedProjects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
     </>
   );
-};
-
-export default SectionWrapper(Works, "");
+};export default SectionWrapper(Works, "");

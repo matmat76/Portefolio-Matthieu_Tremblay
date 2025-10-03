@@ -2,13 +2,21 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
-import { navLinks } from "../constants";
 import { logomatthieu, menu, close } from "../assets";
+import { useTranslation } from "../contexts/LanguageContext";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const { t } = useTranslation();
+
+  // Créer les liens de navigation avec les traductions
+  const navLinks = [
+    { id: "about", title: t.nav.about },
+    { id: "work", title: t.nav.work },
+    { id: "contact", title: t.nav.contact }
+  ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -45,7 +53,7 @@ const Navbar = () => {
           <img src={logomatthieu} alt='logo' className='w-20 h-20 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Matthieu &nbsp;
-            <span className='sm:block hidden'> | Développeur Embarqué</span>
+            <span className='sm:block hidden'> | {t.nav.profession}</span>
           </p>
         </Link>
 

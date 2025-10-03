@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
+import { useTranslation } from "../contexts/LanguageContext";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
@@ -36,22 +37,44 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 
 const About = () => {
+  const { t } = useTranslation();
+  
+  // Services traduits basés sur la langue actuelle
+  const translatedServices = [
+    {
+      title: t.services.embedded,
+      icon: services[0].icon,
+    },
+    {
+      title: t.services.testing,
+      icon: services[1].icon,
+    },
+    {
+      title: t.services.project,
+      icon: services[2].icon,
+    },
+    {
+      title: t.services.web,
+      icon: services[3].icon,
+    },
+  ];
+  
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>A propos de moi</h2>
+        <p className={styles.sectionSubText}>{t.about.introduction}</p>
+        <h2 className={styles.sectionHeadText}>{t.about.title}</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Développeur embarqué en fin d'études, je me spécialise dans la conception d'architectures logicielles pour systèmes critiques. Je valorise la rigueur technique, l'entraide au sein d'une équipe, et l'autonomie dans mes prises de décision. Mon expérience au Japon m'a appris à trouver mon propre équilibre de travail et à progresser continuellement malgré les obstacles.
+        {t.about.description}
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
-        {services.map((service, index) => (
+        {translatedServices.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>

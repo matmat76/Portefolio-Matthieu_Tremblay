@@ -5,6 +5,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
+import { useTranslation } from "../contexts/LanguageContext";
 
 const FeedbackCard = ({
   index,
@@ -44,18 +45,27 @@ const FeedbackCard = ({
 );
 
 const Retour = () => {
+  const { t } = useTranslation();
+  
+  // Témoignages traduits
+  const translatedTestimonials = testimonials.map(testimonial => ({
+    ...testimonial,
+    testimonial: testimonial.name === "Takuya Nojima" ? t.testimonials.testimonial : testimonial.testimonial,
+    designation: testimonial.name === "Takuya Nojima" ? t.testimonials.designation : testimonial.designation
+  }));
+  
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
       <div
         className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>Ce que les autres disent</p>
-          <h2 className={styles.sectionHeadText}>Témoignages</h2>
+          <p className={styles.sectionSubText}>{t.testimonials.subtitle}</p>
+          <h2 className={styles.sectionHeadText}>{t.testimonials.title}</h2>
         </motion.div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
-        {testimonials.map((testimonial, index) => (
+        {translatedTestimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
       </div>
