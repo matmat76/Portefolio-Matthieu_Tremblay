@@ -36,7 +36,7 @@ export const LanguageProvider = ({ children }) => {
       },
       experience: {
         subtitle: "Ce que j'ai fait jusqu'à présent",
-        title: "Mes travaux.",
+        title: "Mon parcours professionnel",
         experiences: {
           fraud: "Détection de Fraude via Deep Learning",
           it: "Développeur IT",
@@ -108,12 +108,12 @@ export const LanguageProvider = ({ children }) => {
       },
       works: {
         subtitle: "Mes réalisations",
-        title: "Mes Projets.",
+        title: "Mes Projets",
         description: "Ces projets démontrent mon savoir-faire à travers des exemples concrets de mon travail."
       },
       contact: {
         subtitle: "Restons en contact",
-        title: "Contact.",
+        title: "Contact",
         nameLabel: "Votre nom",
         namePlaceholder: "Quel est votre nom ?",
         emailLabel: "Votre email",
@@ -173,7 +173,7 @@ export const LanguageProvider = ({ children }) => {
       },
       experience: {
         subtitle: "What I have done so far",
-        title: "My work.",
+        title: "My professional background.",
         experiences: {
           fraud: "Fraud Detection via Deep Learning",
           it: "IT Developer",
@@ -245,12 +245,12 @@ export const LanguageProvider = ({ children }) => {
       },
       works: {
         subtitle: "My work",
-        title: "Projects.",
+        title: "Projects",
         description: "Following projects showcase my skills and experience through real-world examples of my work."
       },
       contact: {
         subtitle: "Get in touch",
-        title: "Contact.",
+        title: "Contact",
         nameLabel: "Your Name",
         namePlaceholder: "What's your name?",
         emailLabel: "Your Email",

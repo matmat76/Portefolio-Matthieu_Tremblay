@@ -41,7 +41,7 @@ const Navbar = () => {
         >
           <img src={logomatthieu} alt='logo' className='w-12 h-12 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Matthieu &nbsp;
+            Matthieu Tremblay &nbsp;
             <span className='sm:block hidden'> | {t.nav.profession}</span>
           </p>
         </Link>

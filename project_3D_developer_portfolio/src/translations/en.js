@@ -33,20 +33,20 @@ export const en = {
   // Experience section
   experience: {
     subtitle: "What I have done so far",
-    title: "My work."
+    title: "My work"
   },
   
   // Works section
   works: {
     subtitle: "My work",
-    title: "Projects.",
+    title: "Projects",
     description: "Following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively."
   },
   
   // Contact section
   contact: {
     subtitle: "Get in touch",
-    title: "Contact.",
+    title: "Contact",
     nameLabel: "Your Name",
     namePlaceholder: "What's your name?",
     emailLabel: "Your Email",

@@ -33,20 +33,20 @@ export const fr = {
   // Experience section
   experience: {
     subtitle: "Ce que j'ai fait jusqu'à présent",
-    title: "Mes travaux."
+    title: "Mes travaux"
   },
   
   // Works section
   works: {
     subtitle: "Mes réalisations",
-    title: "Mes Projets.",
+    title: "Mes Projets",
     description: "Ces projets démontrent mon savoir-faire à travers des exemples concrets de mon travail. Chaque projet est brièvement décrit avec des liens vers les dépôts de code et les démos en direct. Ils reflètent ma capacité à résoudre des problèmes complexes, à travailler avec différentes technologies et à gérer efficacement les projets."
   },
   
   // Contact section
   contact: {
     subtitle: "Restons en contact",
-    title: "Contact.",
+    title: "Contact",
     nameLabel: "Votre nom",
     namePlaceholder: "Quel est votre nom ?",
     emailLabel: "Votre email", 
