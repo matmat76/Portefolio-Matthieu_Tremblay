@@ -12,7 +12,9 @@ export const LanguageProvider = ({ children }) => {
         about: "À propos",
         work: "Projets",
         contact: "Contact",
-        profession: "Développeur Embarqué"
+        profession: "Développeur Embarqué",
+        downloadCV: "Télécharger CV",
+        downloadCVText: "Si vous souhaitez télécharger mon CV"
       },
       hero: {
         greeting: "Bonjour, je m'appelle",
@@ -147,7 +149,9 @@ export const LanguageProvider = ({ children }) => {
         about: "About",
         work: "Projects",
         contact: "Contact",
-        profession: "Embedded Developer"
+        profession: "Embedded Developer",
+        downloadCV: "Download CV",
+        downloadCVText: "If you would like to download my resume"
       },
       hero: {
         greeting: "Hello, my name is",
@@ -160,12 +164,6 @@ export const LanguageProvider = ({ children }) => {
         introduction: "Introduction",
         title: "About me",
         description: "Embedded developer in final year of studies, I specialize in designing software architectures for critical systems. I value technical rigor, teamwork, and autonomy in my decision-making. My experience in Japan taught me to find my own work-life balance and to continuously progress despite obstacles."
-      },
-      services: {
-        embedded: "Embedded Developer",
-        testing: "Test Developer",
-        project: "Project Management",
-        web: "Web Developer"
       },
       services: {
         embedded: "Embedded Developer",
