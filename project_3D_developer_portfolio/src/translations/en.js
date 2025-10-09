@@ -57,5 +57,14 @@ export const en = {
     sendingButton: "Sending...",
     successMessage: "Thank you for your message! I will get back to you as soon as possible.",
     errorMessage: "An error occurred. Please try again or contact me directly."
+  },
+  
+  // Robot section
+  robot: {
+    welcome: "Welcome to my portfolio! 👋",
+    intro: "Nice to meet you, I'm Sparky! 🤖",
+    about: "Matthieu has completed several complex embedded systems projects.",
+    passion: "He loves to innovate and participate in ambitious projects! 🚀",
+    invite: "Feel free to explore his work! ✨"
   }
 };

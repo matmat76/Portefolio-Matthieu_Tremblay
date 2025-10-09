@@ -57,5 +57,14 @@ export const fr = {
     sendingButton: "Envoi en cours...",
     successMessage: "Merci pour votre message ! Je vous répondrai dans les plus brefs délais.",
     errorMessage: "Une erreur s'est produite. Veuillez réessayer ou me contacter directement."
+  },
+  
+  // Robot section
+  robot: {
+    welcome: "Bienvenue sur mon portfolio ! 👋",
+    intro: "Enchanté, moi c'est Sparky ! 🤖",
+    about: "Matthieu a réalisé plusieurs projets complexes dans l'embarqué.",
+    passion: "Il adore innover et participer à des projets ambitieux ! 🚀",
+    invite: "N'hésitez pas à explorer ses réalisations ! ✨"
   }
 };

@@ -14,13 +14,13 @@ const App = () => {
           </div>
           <About />
           <Experience />
-          <Tech2D /> {/* Remplacer <Tech /> par <Tech2D /> */}
+          <Tech2D />
           <Works />
+          <Retour /> {/* Témoignages AVANT Contact */}
           <div className="relative z-0">
             <Contact />
             <StarsCanvas />
           </div>
-          <Retour />
           <LanguageToggle />
         </div>
       </LanguageProvider>
