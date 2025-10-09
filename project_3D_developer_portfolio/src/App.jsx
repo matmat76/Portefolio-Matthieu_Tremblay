@@ -1,32 +1,31 @@
 import { BrowserRouter } from "react-router-dom";
-
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
-import { LanguageProvider } from "./contexts/LanguageContext";
-import LanguageToggle from "./components/LanguageToggle";
+import { LanguageProvider } from './contexts/LanguageContext';
+import { About, Contact, Experience, Hero, Navbar, Tech2D, Works, StarsCanvas, Retour, LanguageToggle } from './components';
 
 const App = () => {
+
   return (
-    <LanguageProvider>
-      <BrowserRouter>
-        <div className='relative z-0 bg-primary'>
-          <LanguageToggle />
-          <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
+    <BrowserRouter>
+      <LanguageProvider>
+        <div className="relative z-0 bg-primary">
+          <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
             <Navbar />
             <Hero />
           </div>
           <About />
           <Experience />
-          <Tech />
+          <Tech2D /> {/* Remplacer <Tech /> par <Tech2D /> */}
           <Works />
-          <Feedbacks />
-          <div className='relative z-0'>
+          <div className="relative z-0">
             <Contact />
             <StarsCanvas />
           </div>
+          <Retour />
+          <LanguageToggle />
         </div>
-      </BrowserRouter>
-    </LanguageProvider>
-  );
+      </LanguageProvider>
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App
