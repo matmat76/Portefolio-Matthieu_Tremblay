@@ -16,11 +16,11 @@ const App = () => {
           <Experience />
           <Tech2D /> {/* Remplacer <Tech /> par <Tech2D /> */}
           <Works />
+          <Retour />
           <div className="relative z-0">
             <Contact />
             <StarsCanvas />
           </div>
-          <Retour />
           <LanguageToggle />
         </div>
       </LanguageProvider>
