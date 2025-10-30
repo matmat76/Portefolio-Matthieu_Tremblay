@@ -7,7 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import logomatthieu from "./logomatthieu.png";
-
+import facialrecognitionproject from "./facial-recognition-project.webp";
 import uec from "./company/uec.png";
 import voiture from "./company/voiture.webp";
 import cpge from "./company/cpge.webp";
@@ -48,6 +48,7 @@ import espcam from "./espcam.png";
 import tripguide from "./tripguide.png";
 
 export {
+  facialrecognitionproject,
   logo,
   cmake,
   etudeMoteur,

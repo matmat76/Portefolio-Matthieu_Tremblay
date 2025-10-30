@@ -26,7 +26,7 @@ export const LanguageProvider = ({ children }) => {
       about: {
         introduction: "Introduction",
         title: "À propos de moi",
-        description: "Développeur embarqué en fin d'études, je me spécialise dans la conception d'architectures logicielles pour systèmes critiques. Je valorise la rigueur technique, l'entraide au sein d'une équipe, et l'autonomie dans mes prises de décision. Mon expérience au Japon m'a appris à trouver mon propre équilibre de travail et à progresser continuellement malgré les obstacles."
+        description: "Je suis développeur embarqué en fin d'études, spécialisé dans la conception d'architectures logicielles pour systèmes critiques. J'accorde une grande importance à la rigueur technique, à l'entraide au sein de l'équipe et à l'autonomie dans la prise de décision. Mon séjour au Japon m'a aidé à mieux équilibrer vie professionnelle et personnelle et à progresser malgré les obstacles. Je pratique la callisthénie régulièrement depuis plusieurs années : c'est une vraie passion qui nourrit ma fascination pour le corps humain et influence souvent ma démarche technique."
       },
       services: {
         embedded: "Développeur embarqué",
@@ -141,6 +141,11 @@ export const LanguageProvider = ({ children }) => {
           name: "Véhicule télécommandé avec tourelle caméra",
           description: "Projet embarqué fait en Arduino (C++) avec un ami consistant à créer une voiture télécommandée équipée d'une tourelle caméra motorisée 2D pilotée par RF (ESP32-CAM, Arduino). Le projet a été repris en 2025 pour réaliser une voiture autonome électrique.",
           tags: ["C++", "Arduino", "Inventor : modélisation 3D"]
+        },
+        humanRecognition: {
+          name: "Reconnaissance humaine avec OpenVINO",
+          description: "Projet de reconnaissance humaine utilisant OpenVINO pour la détection et l'identification de personnes.",
+          tags: ["Python", "OpenVINO", "IA/ML"]
         }
       }
     },
@@ -163,7 +168,7 @@ export const LanguageProvider = ({ children }) => {
       about: {
         introduction: "Introduction",
         title: "About me",
-        description: "Embedded developer in final year of studies, I specialize in designing software architectures for critical systems. I value technical rigor, teamwork, and autonomy in my decision-making. My experience in Japan taught me to find my own work-life balance and to continuously progress despite obstacles."
+        description: "I'm an embedded developer in my final year, specializing in software architectures for critical systems. I place high value on technical rigor, teamwork and autonomy in decision-making. My time in Japan taught me how to better balance work and life and to keep improving despite setbacks. I've been practicing calisthenics regularly for several years — it's a passion that fuels my fascination with the human body and often inspires my technical approach."
       },
       services: {
         embedded: "Embedded Developer",
@@ -278,6 +283,11 @@ export const LanguageProvider = ({ children }) => {
           name: "Remote-Controlled Vehicle with Camera Turret",
           description: "Embedded project made in Arduino (C++) with a friend to create a remote-controlled car equipped with a 2D motorized camera turret controlled by RF (ESP32-CAM, Arduino). The project was resumed in 2025 to create an autonomous electric car.",
           tags: ["C++", "Arduino", "Inventor: 3D Modeling"]
+        },
+        humanRecognition: {
+          name: "Human Recognition with OpenVINO",
+          description: "Human recognition project using OpenVINO for person detection and identification.",
+          tags: ["Python", "OpenVINO", "AI/ML"]
         }
       }
     }

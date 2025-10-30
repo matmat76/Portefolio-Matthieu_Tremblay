@@ -19,7 +19,7 @@ export const en = {
   about: {
     introduction: "Introduction",
     title: "About me",
-    description: "Embedded developer in final year of studies, I specialize in designing software architectures for critical systems. I value technical rigor, teamwork, and autonomy in my decision-making. My experience in Japan taught me to find my own work-life balance and to continuously progress despite obstacles."
+    description: "Embedded developer in final year of studies, I specialize in designing software architectures for critical systems. I value technical rigor, teamwork, and autonomy in my decision-making. My experience in Japan taught me to find my own work-life balance and to continuously progress despite obstacles. I have been regularly practicing calisthenics for several years — it is an activity I am passionate about. The human body fascinates me and inspires my technical work."
   },
   
   // Services

@@ -19,7 +19,7 @@ export const fr = {
   about: {
     introduction: "Introduction",
     title: "À propos de moi",
-    description: "Développeur embarqué en fin d'études, je me spécialise dans la conception d'architectures logicielles pour systèmes critiques. Je valorise la rigueur technique, l'entraide au sein d'une équipe, et l'autonomie dans mes prises de décision. Mon expérience au Japon m'a appris à trouver mon propre équilibre de travail et à progresser continuellement malgré les obstacles."
+    description: "Développeur embarqué en fin d'études, je me spécialise dans la conception d'architectures logicielles pour systèmes critiques. Je valorise la rigueur technique, l'entraide au sein d'une équipe, et l'autonomie dans mes prises de décision. Mon expérience au Japon m'a appris à trouver mon propre équilibre de travail et à progresser continuellement malgré les obstacles. Je pratique régulièrement la callisthénie depuis plusieurs années — c'est une activité qui me passionne. Le corps humain me fascine et m'inspire dans mon travail technique."
   },
   
   // Services

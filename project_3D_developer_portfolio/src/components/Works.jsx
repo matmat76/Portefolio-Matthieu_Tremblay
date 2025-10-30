@@ -93,6 +93,16 @@ const Works = () => {
       image: projects[1].image,
       source_code_link: projects[1].source_code_link,
     },
+    {
+      name: t.projects.humanRecognition.name,
+      description: t.projects.humanRecognition.description,
+      tags: t.projects.humanRecognition.tags.map((tag, index) => ({
+        name: tag,
+        color: projects[2].tags[index].color
+      })),
+      image: projects[2].image,
+      source_code_link: projects[2].source_code_link,
+    },
   ];
 
   return (

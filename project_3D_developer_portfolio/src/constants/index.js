@@ -1,5 +1,6 @@
 import {
   mobile,
+  facialrecognitionproject,
   backend,
   creator,
   web,
@@ -73,6 +74,10 @@ const services = [
 ];
 
 const technologies = [
+  {
+    name: "python",
+    icon: python,
+  },
   {
     name: "HTML 5",
     icon: html,
@@ -272,6 +277,27 @@ const projects = [
     ],
     image: espcam,
     source_code_link: "https://github.com/matmat76/ProTerra.git",
+  },
+  {
+    name: "Human Recognition with OpenVINO",
+    description:
+      "Projet de reconnaissance humaine utilisant OpenVINO pour la détection et l'identification de personnes.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "OpenVINO",
+        color: "green-text-gradient",
+      },
+      {
+        name: "IA/ML",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: facialrecognitionproject,
+    source_code_link: "https://github.com/matmat76/Human_recognition_Open_Vino",
   },
   
 ];
