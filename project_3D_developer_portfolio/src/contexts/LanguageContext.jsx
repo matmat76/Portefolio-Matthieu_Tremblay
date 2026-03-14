@@ -103,6 +103,7 @@ export const LanguageProvider = ({ children }) => {
           ]
         },
         dates: {
+          "Mars 2026 - Present": "Mars 2026 - Present",
           "Juillet 2025 - Present": "Juillet 2025 - Présent",
           "Jan 2023 - Present": "Jan 2023 - Présent", 
           "Septembre 2023 - Present": "Septembre 2023 - Présent",
@@ -181,6 +182,7 @@ export const LanguageProvider = ({ children }) => {
         subtitle: "What I have done so far",
         title: "My professional background.",
         experiences: {
+          dashboard: "Preventive Monitoring Solution Development",
           fraud: "Fraud Detection via Deep Learning",
           it: "IT Developer",
           embedded: "Embedded System Project",
@@ -191,6 +193,7 @@ export const LanguageProvider = ({ children }) => {
           cpge: "Integrated CPGE (Preparatory Class)"
         },
         companies: {
+          airbusMontoir: "IT Integrator - Airbus Atlantique, Montoir",
           hitachi: "Python Developer - Hitachi, Hong Kong",
           concise: "Freelance Developer - ConciseHealthCare, Los Angeles",
           fortil: "C Developer - Fortil",
@@ -200,6 +203,10 @@ export const LanguageProvider = ({ children }) => {
           team: "ESEO, Team Project (4 people)"
         },
         points: {
+          airbusMontoir: [
+            "Development of a dashboard to monitor the status of Airbus Montoir machine tools",
+            "KPI analysis and presentation on the dashboard."
+          ],
           fraud: [
             "Development of a complete fraud detection system using Graph Neural Networks (GNN).",
             "Transformation of tabular data, training of unsupervised models and performance optimization.",
