@@ -130,6 +130,14 @@ const experiences = [
     date: "Juillet 2025 - Present",
   },
   {
+    titleKey: "fraud",
+    companyKey: "hitachi",
+    pointsKey: "fraud",
+    icon: hitachi,
+    iconBg: "#E6DEDD",
+    date: "Juillet 2025 - Present",
+  },
+  {
     titleKey: "it",
     companyKey: "concise",
     pointsKey: "it",

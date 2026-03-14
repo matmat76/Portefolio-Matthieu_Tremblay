@@ -238,15 +238,7 @@ export const LanguageProvider = ({ children }) => {
             "Development of skills in science, electronics and basics of Python programming"
           ]
         },
-        dates: {
-          "Juillet 2025 - Present": "July 2025 - Present",
-          "Jan 2023 - Present": "Jan 2023 - Present",
-          "Septembre 2023 - Present": "September 2023 - Present", 
-          "Juillet 2024 - Novembre 2024": "July 2024 - November 2024",
-          "2023": "2023",
-          "2022 - 2023": "2022 - 2023",
-          "2021 - 2023": "2021 - 2023"
-        }
+        dates: {},
       },
       works: {
         subtitle: "My work",
