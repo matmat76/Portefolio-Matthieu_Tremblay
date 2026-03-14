@@ -38,6 +38,7 @@ export const LanguageProvider = ({ children }) => {
         subtitle: "Ce que j'ai fait jusqu'à présent",
         title: "Mon parcours professionnel",
         experiences: {
+          dashboard: "Développement solution pour du monitoring préventif des machines-outils",
           fraud: "Détection de Fraude via Deep Learning",
           it: "Développeur IT",
           embedded: "Projet Système Embarqué",
@@ -48,6 +49,7 @@ export const LanguageProvider = ({ children }) => {
           cpge: "CPGE Intégrée (Classe Préparatoire)"
         },
         companies: {
+          airbusMontoir: "Intégrateur IT - Airbus Atlantique, Montoir",
           hitachi: "Développeur Python - Hitachi, Hong Kong",
           concise: "Développeur Freelance - ConciseHealthCare, Los Angeles",
           fortil: "Développeur C - Fortil",
@@ -57,6 +59,10 @@ export const LanguageProvider = ({ children }) => {
           team: "ESEO, Projet d'équipe (4 personnes)"
         },
         points: {
+          airbusMontoir: [
+            "Développement d'un dashboard pour surveiller l'état des machines-outils d'Airbus Montoir",
+            "Etude des KPI et présentation de ces derniers sur le dashboard."
+          ],
           fraud: [
             "Développement d'un système complet de détection de fraudes utilisant des réseaux neuronaux graphiques (GNN).",
             "Transformation de données tabulaires, entraînement de modèles non supervisés et optimisation des performances.",

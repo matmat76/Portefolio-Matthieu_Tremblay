@@ -6,7 +6,7 @@ import RobotDialogue from "./RobotDialogue";
 
 const Hero = () => {
   // Variable pour choisir quel modèle 3D afficher
-  const USE_ROBOT = true; // Mettre à false pour revenir à l'ordinateur
+  const USE_ROBOT = false; // Mettre à false pour revenir à l'ordinateur
 
   return (
     <section className="relative w-full h-screen mx-auto">
