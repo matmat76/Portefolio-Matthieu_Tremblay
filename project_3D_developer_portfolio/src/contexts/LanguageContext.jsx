@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState } from 'react';
+import { translateDate } from "../utils/dateFormatter";
 
 const LanguageContext = createContext();
 
@@ -102,16 +103,7 @@ export const LanguageProvider = ({ children }) => {
             "Développement de compétences en sciences, électronique et bases de la programmation en Python"
           ]
         },
-        dates: {
-          "Mars 2026 - Present": "Mars 2026 - Present",
-          "Juillet 2025 - Present": "Juillet 2025 - Présent",
-          "Jan 2023 - Present": "Jan 2023 - Présent", 
-          "Septembre 2023 - Present": "Septembre 2023 - Présent",
-          "Juillet 2024 - Novembre 2024": "Juillet 2024 - Novembre 2024",
-          "2023": "2023",
-          "2022 - 2023": "2022 - 2023",
-          "2021 - 2023": "2021 - 2023"
-        }
+        dates: {},
       },
       works: {
         subtitle: "Mes réalisations",
@@ -307,7 +299,8 @@ export const LanguageProvider = ({ children }) => {
       language, 
       setLanguage, 
       toggleLanguage, 
-      t 
+      t,
+      translateDate 
     }}>
       {children}
     </LanguageContext.Provider>
@@ -319,7 +312,7 @@ export const useTranslation = () => {
   if (!context) {
     throw new Error('useTranslation must be used within a LanguageProvider');
   }
-  return { t: context.t };
+  return { t: context.t, translateDate: context.translateDate };
 };
 
 export const useLanguage = () => {

@@ -11,7 +11,7 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
-import { useTranslation } from "../contexts/LanguageContext";
+import { useLanguage } from "../contexts/LanguageContext";
 
 const ExperienceCard = ({ experience }) => {
   return (
@@ -58,7 +58,7 @@ const ExperienceCard = ({ experience }) => {
 };
 
 const Experience = () => {
-  const { t } = useTranslation();
+  const { t, language, translateDate } = useLanguage();
 
   // Transformer les clés en traductions
   const translatedExperiences = experiences.map(exp => ({
@@ -66,7 +66,7 @@ const Experience = () => {
     title: t.experience.experiences[exp.titleKey],
     company_name: t.experience.companies[exp.companyKey],
     points: t.experience.points[exp.pointsKey],
-    date: t.experience.dates[exp.date] || exp.date,
+    date: translateDate(exp.date, language), // Utiliser la fonction ici
   }));
 
   return (
