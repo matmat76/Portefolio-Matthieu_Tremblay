@@ -17,6 +17,7 @@ import {
   mongodb,
   git,
   figma,
+  sql,
   docker,
   java,
   fortil,
@@ -33,6 +34,7 @@ import {
   threejs,
   cmake,
   hitachi,
+  airbus,
   logo,
   cc,
   ltspice,
@@ -118,16 +120,24 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  {
+    name: "sql",
+    icon: sql,
+  },
+  {
+    name: "docker",
+    icon: docker,
+  },
 ];
 
 const experiences = [
   {
-    titleKey: "fraud",
-    companyKey: "hitachi",
-    pointsKey: "fraud",
-    icon: hitachi,
+    titleKey: "dashboard",
+    companyKey: "airbusMontoir",
+    pointsKey: "airbusMontoir",
+    icon: airbus,
     iconBg: "#E6DEDD",
-    date: "Juillet 2025 - Present",
+    date: "Mars 2026 - Present",
   },
   {
     titleKey: "fraud",
@@ -135,7 +145,7 @@ const experiences = [
     pointsKey: "fraud",
     icon: hitachi,
     iconBg: "#E6DEDD",
-    date: "Juillet 2025 - Present",
+    date: "Sep 2025 - Jan 2026",
   },
   {
     titleKey: "it",
@@ -143,7 +153,7 @@ const experiences = [
     pointsKey: "it",
     icon: logo,
     iconBg: "#E6DEDD",
-    date: "Juillet 2025 - Present",
+    date: "Sep 2025 - Nov 2025",
   },
   {
     titleKey: "embedded",
@@ -151,7 +161,7 @@ const experiences = [
     pointsKey: "embedded",
     icon: fortil,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Jan 2025 - Juil 2025",
   },
   {
     titleKey: "motor",
@@ -159,7 +169,7 @@ const experiences = [
     pointsKey: "motorPoints",
     icon: seio,
     iconBg: "#383E56",
-    date: "Septembre 2023 - Present",
+    date: "Sep 2023 - Sep 2025",
   },
   {
     titleKey: "filtering",
@@ -167,7 +177,7 @@ const experiences = [
     pointsKey: "filtering",
     icon: uec,
     iconBg: "#E6DEDD",
-    date: "Juillet 2024 - Novembre 2024",
+    date: "Juil 2024 - Nov 2024",
   },
   {
     titleKey: "arduino",

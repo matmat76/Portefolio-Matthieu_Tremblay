@@ -39,7 +39,7 @@ export const LanguageProvider = ({ children }) => {
         subtitle: "Ce que j'ai fait jusqu'à présent",
         title: "Mon parcours professionnel",
         experiences: {
-          dashboard: "Développement solution pour du monitoring préventif des machines-outils",
+          dashboard: "Monitoring préventif des machines-outils",
           fraud: "Détection de Fraude via Deep Learning",
           it: "Développeur IT",
           embedded: "Projet Système Embarqué",

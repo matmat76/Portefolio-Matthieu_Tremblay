@@ -16,8 +16,9 @@ import seio from "./company/seio.png";
 import fortil from "./company/fortil.webp";
 import hitachi from "./company/hitachi.png";
 import takuyaNojima from "./ppl/takuyaNojima.png";
+import airbus from "./company/airbus.webp";
 
-
+import sql from "./tech/sql.webp";
 import c from "./tech/c.png";
 import cc from "./tech/c++.webp";
 import ltspice from "./tech/ltspice.png";
@@ -64,6 +65,7 @@ export {
   fortil,
   logomatthieu,
   hitachi,
+  airbus,
   c,
   cc,
   creator,
@@ -74,6 +76,7 @@ export {
   close,
   takuyaNojima,
   css,
+  sql,
   docker,
   figma,
   git,
