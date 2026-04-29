@@ -36,7 +36,7 @@ const ServiceCard = ({ index, title, icon }) => (
   </Tilt>
 );
 
-const About = () => {
+const About = ({ viewMode, setViewMode }) => {
   const { t } = useTranslation();
   
   // Services traduits basés sur la langue actuelle
@@ -72,11 +72,28 @@ const About = () => {
         {t.about.description}
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
-        {translatedServices.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
+      <div className='mt-10 flex gap-5'>
+        <button
+          onClick={() => setViewMode('professionnel')}
+          className={`py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary ${viewMode === 'professionnel' ? 'bg-tertiary border-2 border-white' : 'bg-tertiary'}`}
+        >
+          Professionnel
+        </button>
+        <button
+          onClick={() => setViewMode('personnel')}
+          className={`py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary ${viewMode === 'personnel' ? 'bg-tertiary border-2 border-white' : 'bg-tertiary'}`}
+        >
+          Personnel
+        </button>
       </div>
+
+      {viewMode === 'professionnel' && (
+        <div className='mt-20 flex flex-wrap gap-10'>
+          {translatedServices.map((service, index) => (
+            <ServiceCard key={service.title} index={index} {...service} />
+          ))}
+        </div>
+      )}
     </>
   );
 };
