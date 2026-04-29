@@ -11,6 +11,9 @@ import Retour from './Retour';
 import LanguageToggle from './LanguageToggle';
 import WelcomeRobot from './WelcomeRobot';
 import RobotDialogue from './RobotDialogue';
+import Calisthenics from './Calisthenics';
+import Languages from './Languages';
+import Desires from './Desires';
 
 export {
   Hero,
@@ -29,5 +32,8 @@ export {
   Retour,
   LanguageToggle,
   WelcomeRobot,
-  RobotDialogue
+  RobotDialogue,
+  Calisthenics,
+  Languages,
+  Desires
 };
